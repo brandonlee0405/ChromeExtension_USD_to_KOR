@@ -20,3 +20,12 @@ for (var i = 0; i < elements.length; i++) {
 chrome.browserAction.onClicked.addListener(function(tab) {
    chrome.tabs.executeScript(null, {file: "content.js"});
 });
+
+
+/*
+function decimalRound(value, decimal) {
+  var round = value * Math.pow(10, decimal);
+  round = Math.round(round);
+  return round / Math.pow(10, decimal);
+}
+*/
